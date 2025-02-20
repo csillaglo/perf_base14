@@ -1,30 +1,47 @@
 export const en = {
-  common: {
-    welcome: 'Welcome',
-    welcomeBack: 'Welcome back, {{name}}',
-    name: 'Name',
-    actions: 'Actions',
-    noNameSet: 'No name set',
-    dashboard: 'Dashboard',
-    sending: 'Sending...',
-    login: 'Login',
-    logout: 'Logout',
-    email: 'Email',
-    password: 'Password',
-    submit: 'Submit',
-    cancel: 'Cancel',
-    save: 'Save',
-    delete: 'Delete',
-    edit: 'Edit',
-    create: 'Create',
-    search: 'Search',
-    loading: 'Loading...',
-    error: 'Error',
-    success: 'Success',
-    saving: 'Saving...',
-    saveChanges: 'Save Changes',
-    na: 'N/A',
-  },
+	common: {
+		welcome: 'Welcome',
+		welcomeBack: 'Welcome back, {{name}}',
+		name: 'Name',
+		actions: 'Actions',
+		noNameSet: 'No name set',
+		dashboard: 'Dashboard',
+		sending: 'Sending...',
+		login: 'Login',
+		logout: 'Logout',
+		email: 'Email',
+		password: 'Password',
+		submit: 'Submit',
+		cancel: 'Cancel',
+		save: 'Save',
+		delete: 'Delete',
+		edit: 'Edit',
+		create: 'Create',
+		search: 'Search',
+		loading: 'Loading...',
+		error: 'Error',
+		success: 'Success',
+		saving: 'Saving...',
+		saveChanges: 'Save Changes',
+		na: 'N/A'
+	},
+	 docs: {
+		sections: 'Documentation Sections',
+		employee: {
+			goals: {
+				title: 'Managing Goals',
+				content: 'In this section, you can learn how to create, modify, and track individual goals in the system.'
+			},
+			performance: {
+				title: 'Performance Overview',
+				content: 'Review your performance indicators, scores, and development opportunities.'
+			},
+			profile: {
+				title: 'Profile Settings',
+				content: 'Modify your personal data, password, and other profile settings.'
+			}
+		}
+		},
   auth: {
     signIn: 'Sign In',
     signInTo: 'Sign in to PerformancePro',

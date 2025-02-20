@@ -23,9 +23,26 @@ export const hu = {
     success: 'Sikeres',
     saving: 'Mentés...',
     saveChanges: 'Változtatások mentése',
-    na: 'N/A',
+    na: 'N/A'
   },
-   auth: {
+	docs: {
+    sections: 'Dokumentáció fejezetek',
+    employee: {
+      goals: {
+        title: 'Célok kezelése',
+        content: 'Ebben a szekcióban megtudhatja, hogyan hozhat létre, módosíthat és követhet nyomon egyéni célokat a rendszerben.'
+      },
+      performance: {
+        title: 'Teljesítmény áttekintés',
+        content: 'Tekintse át saját teljesítmény mutatóit, pontszámait és fejlődési lehetőségeit.'
+      },
+      profile: {
+        title: 'Profil beállítások',
+        content: 'Módosítsa személyes adatait, jelszavát és egyéb profilbeállításait.'
+      }
+		}
+    },
+	auth: {
     signIn: 'Bejelentkezés',
     signInTo: 'Bejelentkezés a PerformancePro-ba',
     passwordsDontMatch: 'A jelszavak nem egyeznek',
