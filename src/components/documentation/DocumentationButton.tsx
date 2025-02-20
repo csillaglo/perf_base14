@@ -9,7 +9,7 @@ export function DocumentationButton() {
     <>
       <button 
         onClick={() => setIsModalOpen(true)}
-        className="fixed bottom-6 right-6 bg-indigo-600 text-white p-3 rounded-full shadow-lg hover:bg-indigo-700 transition-colors"
+        className="fixed bottom-6 right-6 bg-indigo-600 text-white p-3 rounded-full shadow-lg hover:bg-indigo-700 transition-colors z-50"
         title="Dokumentáció"
       >
         <Book className="h-6 w-6" />

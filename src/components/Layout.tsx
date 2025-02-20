@@ -6,6 +6,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { signOut } from '../lib/auth';
 import { supabase } from '../lib/supabase';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { DocumentationButton } from '../components/documentation/DocumentationButton';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -127,6 +128,8 @@ export function Layout({ children }: LayoutProps) {
       <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 transition-colors duration-200">
         {children}
       </main>
+
+      <DocumentationButton />
     </div>
   );
 }
