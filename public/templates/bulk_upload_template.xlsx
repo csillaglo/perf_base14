@@ -1,0 +1,53 @@
+PK
+                                                                                                    
+                                                Excel.Sheet.12                                       
+[Content.Types].xml                             
+_rels/.rels                                     
+xl/workbook.xml                                 
+xl/_rels/workbook.xml.rels                     
+xl/worksheets/sheet1.xml                        
+xl/theme/theme1.xml                             
+xl/styles.xml                                   
+xl/sharedStrings.xml                            
+docProps/core.xml                               
+docProps/app.xml                                
+                                               
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <sheets>
+    <sheet name="Users" sheetId="1" r:id="rId1"/>
+  </sheets>
+</workbook>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <sheetData>
+    <row>
+      <c t="s"><v>email</v></c>
+      <c t="s"><v>full_name</v></c>
+      <c t="s"><v>department</v></c>
+      <c t="s"><v>job_level</v></c>
+      <c t="s"><v>job_name</v></c>
+      <c t="s"><v>role</v></c>
+      <c t="s"><v>manager_email</v></c>
+    </row>
+    <row>
+      <c t="s"><v>kovacs.janos@example.com</v></c>
+      <c t="s"><v>Kovács János</v></c>
+      <c t="s"><v>Fejlesztés</v></c>
+      <c t="s"><v>Senior</v></c>
+      <c t="s"><v>Szoftverfejlesztő</v></c>
+      <c t="s"><v>employee</v></c>
+      <c t="s"><v>vezeto@example.com</v></c>
+    </row>
+    <row>
+      <c t="s"><v>nagy.maria@example.com</v></c>
+      <c t="s"><v>Nagy Mária</v></c>
+      <c t="s"><v>Marketing</v></c>
+      <c t="s"><v>Junior</v></c>
+      <c t="s"><v>Marketing Specialista</v></c>
+      <c t="s"><v>employee</v></c>
+      <c t="s"><v>vezeto@example.com</v></c>
+    </row>
+  </sheetData>
+</worksheet>

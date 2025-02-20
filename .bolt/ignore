@@ -1,0 +1,7 @@
+src/components/admin/*
+src/components/dashboard/*
+src/components/goals/*
+src/components/performance/*
+pages/Admin.tsx
+pages/Dashboard.tsx
+pages/Goals.tsx
